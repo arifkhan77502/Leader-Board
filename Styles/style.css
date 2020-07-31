@@ -1,0 +1,134 @@
+body {
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+nav {
+    max-width: 870px;
+    padding-left: 20px;
+}
+
+header {
+    background-color: #562EFF;
+}
+
+main {
+    max-width: 870px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+footer {
+    max-width: 870px;
+    background-color: #FFFFFF;
+}
+
+h3 {
+    color: #562EFF;
+
+}
+
+header .nav-item {
+    padding-right: 1em;
+}
+
+.navbar .navbar-profile {
+    width: 56px;
+}
+
+.navbar .navbar-logo {
+    width: 45px;
+}
+
+.player img {
+    width: 56px;
+}
+
+.blog img {
+    width: 200px;
+    height: 120px;
+}
+
+footer .card-body a {
+    color: #ED6B4F;
+}
+
+footer .social-media a {
+    display: flex;
+    background: #e3edf7;
+    height: 40px;
+    width: 40px;
+    margin: 10px 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1ps solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+}
+
+footer .social-media a i {
+    font-size: 25px;
+    color: #777;
+    transition: transform 0.5s;
+}
+
+footer .social-media a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.15),
+        inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1ps solid rgba(0, 0, 0, 0.01);
+    transform: translateY(2px);
+}
+
+footer .social-media a:hover i {
+    transform: scale(0.90);
+}
+
+footer .social-media a:hover .fa-facebook {
+    color: #3b5998;
+}
+
+footer .social-media a:hover .fa-twitter {
+    color: #55acee;
+}
+
+footer .social-media a:hover .fa-linkedin {
+    color: #0077b5;
+}
+
+footer .social-media a:hover .fa-instagram {
+    color: #3f729b;
+}
+
+footer .social-media a:hover .fa-youtube {
+    color: #cd201f;
+}
+
+main p a {
+    color: #562EFF;
+}
+
+small .amber-text {
+    color: orange;
+}
+
+small .amber-text-empty {
+    opacity: 0.2;
+}
+
+.card ul li .chip {
+    color: #FF4A60;
+    border: none;
+    background-color: #FFE4E8;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
